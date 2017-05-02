@@ -25,7 +25,7 @@ class ArrayIterator
 
 private:
 
-	T** Current; // mai adaugati si alte date si functii necesare pentru iterator
+	T** Current; 
 
 public:
 
@@ -162,7 +162,7 @@ ArrayIterator<T>& ArrayIterator<T>::operator++()
 {
 	Current++;
 
-	return *this;     // if it works then it ain't stupid
+	return *this;    
 }
 
 template<class T>
@@ -170,7 +170,7 @@ ArrayIterator<T>& ArrayIterator<T>::operator--()
 {
 	Current--;
 
-	return *this;      // if it works then it ain't stupid part 2
+	return *this;      
 }
 
 template<class T>
@@ -178,7 +178,7 @@ bool ArrayIterator<T>::operator=(ArrayIterator<T> &val)
 {
 	Current = val.Current;
 
-	return true;       // for some fucked up reason
+	return true;       
 }
 
 template<class T>
