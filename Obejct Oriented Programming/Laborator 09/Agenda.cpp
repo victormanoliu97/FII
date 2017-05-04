@@ -1,16 +1,39 @@
+#include<iostream>
+#include<exception>
 #include "Agenda.h"
+
+class ContactNotFound : public exception
+{
+	virtual const char* what() const throw()
+	{
+		return "Contact not found";
+	}
+};
 
 Contacte& Agenda::findByName(string name)
 {
-	for (auto it = contacts.begin(); it != contacts.end(); it++)
-	{
-		if (it->name == name)
-		{
-			return *it;
-		}
-	}
+	ContactNotFound ContactNotFoundMessage;
 
-	cout << "Contact not found";
+	try
+	{
+
+		for (auto it = contacts.begin(); it != contacts.end(); it++)
+		{
+			if (it->name != name)
+			{
+				throw ContactNotFoundMessage;
+			}
+			else
+			{
+				return *it;
+			}
+		}
+
+	}
+	catch (exception& e)
+	{
+		cout << e.what();
+	}
 }
 
 vector<Contacte> Agenda::getFriendList()
@@ -20,13 +43,27 @@ vector<Contacte> Agenda::getFriendList()
 
 void Agenda::deleteFriend(string name)
 {
-	for (auto it = contacts.begin(); it != contacts.end(); it++)
+
+	ContactNotFound ContactNotFoundMessage;
+
+	try
 	{
-		if (it->name == name)
+		for (auto it = contacts.begin(); it != contacts.end(); it++)
 		{
-			contacts.erase(it);
-			return;
+			if (it->name != name)
+			{
+				throw ContactNotFoundMessage;
+			}
+			else
+			{
+				contacts.erase(it);
+				return;
+			}
 		}
+	}
+	catch (exception& e)
+	{
+		cout << e.what();
 	}
 }
 
