@@ -25,3 +25,10 @@ from studenti s
 join note n on s.nr_matricol = n.nr_matricol 
 join cursuri c on c.id_curs = n.id_curs 
 where trim(c.id_curs) like '23' and (n.valoare=7 or n.valoare=10) and trim(to_char(n.data_notare, 'Day')) like 'Tuesday';
+
+--p6 
+select s.nume, s.prenume, n.valoare, to_char(n.data_notare, 'Month')||','||extract(year from n.data_notare), decode( cast(to_char(last_day(data_notare),'dd') AS INT), 30, null, '+')
+from studenti s 
+join note n on s.nr_matricol = n.nr_matricol 
+join cursuri c on c.id_curs = n.id_curs 
+where n.valoare>=5;
