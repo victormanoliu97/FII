@@ -5,5 +5,14 @@ package compulsory;
  */
 public interface Asset {
 
-    public int computeProfit(int objectSpecificProperty, int price);
+    public int computeProfit();
+
+    default double evaluateRisk()
+    {
+        double riskFactor = 0.5;
+        return riskFactor;
+    }
+
+    public double computeProfitUsingRisk();
+
 }

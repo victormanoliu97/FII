@@ -82,14 +82,23 @@ public class Vehicle extends Item implements Asset {
     /**
      * Method for computing the profit of a building
      *
-     * @param objectSpecificProperty the specific property of the object, in this case, the area
-     * @param price                  the price of the building
      * @return the computed profit
      */
 
     @Override
-    public int computeProfit(int objectSpecificProperty, int price) {
-        return objectSpecificProperty / price;
+    public int computeProfit() {
+        return getVehiclePerformance() / getVehiclePrice();
+    }
+
+    /**
+     * Method for computing the profit of a vehicle using the risk factor
+     *
+     * @return the computed profit using the risk factor
+     */
+
+    @Override
+    public double computeProfitUsingRisk() {
+        return (getVehiclePerformance() / getVehiclePrice()) * evaluateRisk();
     }
 
     /**

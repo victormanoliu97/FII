@@ -51,6 +51,7 @@ public class Building extends Item implements Asset {
 
     /**
      * Getter method for building's name
+     *
      * @return the name of the building
      */
 
@@ -60,6 +61,7 @@ public class Building extends Item implements Asset {
 
     /**
      * Getter method for building's area
+     *
      * @return the area of the building
      */
 
@@ -69,6 +71,7 @@ public class Building extends Item implements Asset {
 
     /**
      * Getter method for building's price
+     *
      * @return the price of the bulding
      */
 
@@ -79,15 +82,25 @@ public class Building extends Item implements Asset {
     /**
      * Method for computing the profit of a building
      *
-     * @param objectSpecificProperty the specific property of the object, in this case, the area
-     * @param price                  the price of the building
      * @return the computed profit
      */
 
     @Override
-    public int computeProfit(int objectSpecificProperty, int price) {
-        return objectSpecificProperty / price;
+    public int computeProfit() {
+        return getBuildingArea() / getBuildingPrice();
     }
+
+    /**
+     * Method for computing the profit of a building using the risk factor
+     *
+     * @return the computed profit using the risk factor
+     */
+
+    @Override
+    public double computeProfitUsingRisk() {
+        return (getBuildingArea() / getBuildingPrice()) * evaluateRisk();
+    }
+
 
     /**
      * Gets the string representation of this object
