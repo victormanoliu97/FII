@@ -3,6 +3,7 @@ package compulsory;
 import optional.Algorithm;
 import optional.GreedyAlgorithm;
 import optional.Portofolio;
+import optional.RandomAlgorithm;
 
 import javax.sound.sampled.Port;
 import java.util.*;
@@ -98,15 +99,19 @@ public class AssetManager {
         return items;
     }
 
-    public Portofolio createPortofolio(GreedyAlgorithm algorithm, int maxValue)
-    {
-        Portofolio p = new Portofolio(algorithm, maxValue);
+    public Portofolio createPortofolio(GreedyAlgorithm algorithm, int maxValue) {
+        Portofolio p = new Portofolio(algorithm, items, maxValue);
 
         return p;
     }
 
-    public void printPortofolioSolution(Portofolio p)
-    {
+    public Portofolio createPortofolio(RandomAlgorithm algorithm, int maxValue) {
+        Portofolio p = new Portofolio(algorithm, items, maxValue);
+
+        return p;
+    }
+
+    public void printPortofolioSolution(Portofolio p) {
         p.printSolution();
     }
 }

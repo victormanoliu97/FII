@@ -15,43 +15,39 @@ public class GreedyAlgorithm implements Algorithm {
     private List<Item> solution;
     private int priceMaxVaue;
 
-    public GreedyAlgorithm()
-    {
+    public GreedyAlgorithm() {
         items = new ArrayList<Item>();
         solution = new ArrayList<Item>();
-        GreedyAlgorithmResolver();
         printGreedySolution();
     }
 
-    public void printGreedySolution()
-    {
-        for(Item i : solution)
-        {
-            System.out.println(i.toString());
+    public String printGreedySolution() {
+        StringBuilder build = new StringBuilder();
+        for (Item i : solution) {
+            build.append(i.toString());
         }
+        return build.toString();
     }
 
     @Override
-    public List<Item> GreedyAlgorithmResolver() {
-        AssetManager manager = new AssetManager();
+    public GreedyAlgorithm GreedyAlgorithmResolver(List<Item> items, int priceMaxVaue) {
 
         int totalPrice = priceMaxVaue;
 
-        items = manager.getAssets();
-
-        for(Item i : items)
-        {
-            if(i.getItemPrice() <= totalPrice)
-            {
+        for (Item i : items) {
+            if (i.getItemPrice() <= totalPrice) {
                 totalPrice = totalPrice - i.getItemPrice();
                 solution.add(i);
             }
         }
-        return solution;
+        this.items = solution;
+        return this;
     }
 
     @Override
-    public List<Item> RandomAlgorithmResolver() {
+    public RandomAlgorithm RandomAlgorithmResolver(List<Item> items, int priceMaxValue) {
         return null;
     }
+
+
 }

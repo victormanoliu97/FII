@@ -14,21 +14,31 @@ public class Portofolio {
     private int maxValue;
     private List<Item> items;
 
-    public Portofolio(GreedyAlgorithm greedyAlgorithm, int maxValue)
-    {
+    public Portofolio(GreedyAlgorithm greedyAlgorithm, List<Item> items, int maxValue) {
+        this.items = items;
         this.greedyAlgorithm = greedyAlgorithm;
         this.maxValue = maxValue;
     }
 
-    public Portofolio(RandomAlgorithm randomAlgorithm, int maxValue)
-    {
+    public Portofolio(RandomAlgorithm randomAlgorithm, List<Item> items, int maxValue) {
+        this.items = items;
         this.randomAlgorithm = randomAlgorithm;
         this.maxValue = maxValue;
     }
 
-    public void printSolution()
-    {
+
+    @Override
+    public String toString() {
+        return greedyAlgorithm.GreedyAlgorithmResolver(this.items, this.maxValue).printGreedySolution();
+    }
+
+    public String toStringRandom() {
+        return randomAlgorithm.RandomAlgorithmResolver(this.items, this.maxValue).printRandomSolution();
+    }
+
+    public void printSolution() {
         greedyAlgorithm.printGreedySolution();
     }
+
 
 }

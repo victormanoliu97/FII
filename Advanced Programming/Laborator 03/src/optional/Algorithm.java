@@ -9,7 +9,7 @@ import java.util.List;
  */
 public interface Algorithm {
 
-    public List<Item> GreedyAlgorithmResolver();
+    public GreedyAlgorithm GreedyAlgorithmResolver(List<Item> items, int priceMaxValue);
 
-    public List<Item> RandomAlgorithmResolver();
+    public RandomAlgorithm RandomAlgorithmResolver(List<Item> items, int priceMaxValue);
 }

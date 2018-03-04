@@ -38,6 +38,7 @@ public class Main {
         int maxValue = 20;
         Portofolio solution = manager.createPortofolio(new GreedyAlgorithm(), maxValue);
         System.out.println("The best portofolio: " + solution);
+        solution.printSolution();
 
     }
 }
