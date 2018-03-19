@@ -24,10 +24,11 @@ public class CatalogFrame extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(700,600);
         setLayout(new BorderLayout());
+        Container container = getContentPane();
 
         form = new DocumentForm();
-        Container container = getContentPane();
         container.add(form);
+
 
     }
 }

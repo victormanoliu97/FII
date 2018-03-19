@@ -17,7 +17,7 @@ public class DocumentForm extends JPanel {
     //private final CatalogFrame frame = new CatalogFrame();
 
     JLabel titleLabel;
-    JLabel titleLabel2 ;
+    JLabel titleLabel2;
     JLabel titleLabel3;
 
     JButton addBtn;
@@ -36,14 +36,14 @@ public class DocumentForm extends JPanel {
     private int documentYear;
 
 
-    public DocumentForm()
-    {
+    public DocumentForm() {
         init();
     }
 
     private void init() {
 
         Catalog catalog = new Catalog();
+        CatalogList catalogList = new CatalogList();
 
         titleLabel = new JLabel("Title of the document");
         titleLabel2 = new JLabel("Path in the local file system");
@@ -55,7 +55,7 @@ public class DocumentForm extends JPanel {
         loadBtn = new JButton("Load");
         openBtn = new JButton("Open");
 
-        setLayout(new GridLayout(5,2));
+        setLayout(new GridLayout(6, 2));
         add(titleLabel);
         add(documentNameTxtField);
         add(titleLabel2);
@@ -66,6 +66,7 @@ public class DocumentForm extends JPanel {
         add(saveBtn);
         add(loadBtn);
         add(openBtn);
+        add(catalogList);
 
         addBtn.addActionListener(new ActionListener() {
             @Override
@@ -73,7 +74,7 @@ public class DocumentForm extends JPanel {
 
                 documentTitle = documentNameTxtField.getText();
                 documentPath = documentPathTxtField.getText();
-                documentYear = (Integer)yearField.getValue();
+                documentYear = (Integer) yearField.getValue();
 
                 catalog.addDocument(new Document(documentTitle, documentPath, documentYear));
                 catalog.listDocuments();
@@ -86,16 +87,40 @@ public class DocumentForm extends JPanel {
 
                 documentTitle = documentNameTxtField.getText();
                 documentPath = documentPathTxtField.getText();
-                documentYear = (Integer)yearField.getValue();
+                documentYear = (Integer) yearField.getValue();
 
-                try
-                {
+                try {
                     catalog.openDocument(new Document(documentTitle, documentPath, documentYear));
-                }
-                catch (InvalidPathException e1)
-                {
+                } catch (InvalidPathException e1) {
                     e1.printStackTrace();
                 }
+            }
+        });
+
+        saveBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String inputSerializationPath = JOptionPane.showInputDialog(new JFrame(), "Path to save", null);
+
+                try {
+                    catalog.saveDocument(inputSerializationPath);
+                } catch (InvalidPathException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
+
+        loadBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String inputDeserializationPath = JOptionPane.showInputDialog(new JFrame(), "Path to load", null);
+
+                try {
+                    catalogList.addDocument(catalog.loadDocument(inputDeserializationPath));
+                } catch (InvalidPathException e1) {
+                    e1.printStackTrace();
+                }
+
             }
         });
 
