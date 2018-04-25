@@ -12,12 +12,16 @@ public class GameClient {
     private final static int PORT = 8100;
     private static Socket clientSocket = null;
 
+    PrintWriter printWriter = null;
+    BufferedReader bufferedReader = null;
+
     public static void main(String[] args) throws IOException {
 
         GameClient client = new GameClient();
         clientSocket = new Socket(SERVER_ADDRESS, PORT);
 
         System.out.println("Client connected to server");
+        System.out.println("Enter your command to play the game");
 
         while (true) {
             String request = client.readFromKeyboard();
@@ -25,16 +29,16 @@ public class GameClient {
                 break;
             } else {
                 client.sendRequestToServer(request);
-                //client.receiveResponseFromServer();
+                client.receiveResponseFromServer();
             }
         }
     }
 
     private void sendRequestToServer(String request) {
         try {
-            PrintWriter printWriter = new PrintWriter(clientSocket.getOutputStream(), true);
+            printWriter = new PrintWriter(clientSocket.getOutputStream(), true);
             printWriter.println(request);
-            printWriter.close();
+            printWriter.flush();
             System.out.println("The following message was sent with success to server: " + request);
 
         } catch (IOException e) {
@@ -44,23 +48,25 @@ public class GameClient {
 
     private void receiveResponseFromServer() {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            bufferedReader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             String serverResponse = bufferedReader.readLine();
-            bufferedReader.close();
+//            bufferedReader.close();
             System.out.println("I received the following message from the server: " + serverResponse);
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                clientSocket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+//        } finally {
+//            try {
+////                clientSocket.close();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
         }
     }
 
     private String readFromKeyboard() {
         Scanner scanner = new Scanner(System.in);
-        return scanner.next();
+        String message = scanner.next();
+        message += scanner.nextLine();
+        return message;
     }
 }

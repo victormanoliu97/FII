@@ -19,7 +19,11 @@ public class GameServer {
         GameServer server = new GameServer();
         server.init();
         server.waitForClients();
-
+        try {
+            server.stop();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private void init() {
@@ -35,7 +39,7 @@ public class GameServer {
         try {
             while (running) {
                 Socket socket = serverSocket.accept();
-                new ClientThread(socket).start();
+                new ClientThread(socket).run();
             }
         } catch (IOException e) {
             e.printStackTrace();
