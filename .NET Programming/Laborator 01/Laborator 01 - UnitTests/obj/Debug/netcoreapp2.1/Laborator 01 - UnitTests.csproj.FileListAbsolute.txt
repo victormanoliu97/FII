@@ -1,0 +1,17 @@
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Laborator 01 - UnitTests.deps.json
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Laborator 01 - UnitTests.runtimeconfig.json
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Laborator 01 - UnitTests.runtimeconfig.dev.json
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Laborator 01 - UnitTests.dll
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\obj\Debug\netcoreapp2.1\Laborator 01 - UnitTests.csprojAssemblyReference.cache
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\obj\Debug\netcoreapp2.1\Laborator 01 - UnitTests.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\obj\Debug\netcoreapp2.1\Laborator 01 - UnitTests.AssemblyInfoInputs.cache
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\obj\Debug\netcoreapp2.1\Laborator 01 - UnitTests.AssemblyInfo.cs
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Laborator 01.dll
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Laborator 01.pdb
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\obj\Debug\netcoreapp2.1\Laborator 01 - UnitTests.csproj.CopyComplete
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\bin\Debug\netcoreapp2.1\Laborator 01 - UnitTests.pdb
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\obj\Debug\netcoreapp2.1\Laborator 01 - UnitTests.dll
+D:\Facultate\Anul 3\I.NET\Laborator 01\Laborator 01\Laborator 01 - UnitTests\obj\Debug\netcoreapp2.1\Laborator 01 - UnitTests.pdb
