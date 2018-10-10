@@ -31,10 +31,6 @@ namespace Laborator_02.Repository
 
         public List<Product> FindAllProducts()
         {
-            foreach(Product product in productList)
-            {
-                Console.Write(product);
-            }
             return productList;
         }
 
@@ -45,11 +41,11 @@ namespace Laborator_02.Repository
 
         public void RemoveProductByName(string productName)
         {
-            foreach(Product product in productList)
+            for (int i = 0; i < productList.Count; i++)
             {
-                if(product.Name.Equals(productName))
+                if (productList[i].Name.Equals(productName))
                 {
-                    productList.Remove(product);
+                    productList.Remove(productList[i]);
                 }
             }
         }

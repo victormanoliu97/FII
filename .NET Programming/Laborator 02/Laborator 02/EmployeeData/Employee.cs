@@ -6,10 +6,6 @@ namespace Laborator_02.EmployeeData
 {
     public abstract class Employee
     {
-        public Employee()
-        {
-
-        }
         public Employee(int id, string firstName, string lastName, DateTime startDate, DateTime endDate, int salary)
         {
             Id = id;
@@ -20,12 +16,12 @@ namespace Laborator_02.EmployeeData
             Salary = salary;
         }
 
-        public virtual int Id { get; set; }
-        public virtual string FirstName { get; set; }
-        public virtual string LastName { get; set; }
-        public virtual DateTime StartDate { get; set; }
-        public virtual DateTime EndDate { get; set; }
-        public virtual int Salary { get; set; }
+        public int Id { get;private set; }
+        public string FirstName { get; private set; }
+        public string LastName { get; private set; }
+        public DateTime StartDate { get; private set; }
+        public DateTime EndDate { get; private set; }
+        public int Salary { get; private set;}
 
         public string GetFullName()
         {
