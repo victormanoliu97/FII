@@ -1,0 +1,11 @@
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\bin\Debug\netcoreapp2.1\Laborator 03.deps.json
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\bin\Debug\netcoreapp2.1\Laborator 03.runtimeconfig.json
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\bin\Debug\netcoreapp2.1\Laborator 03.runtimeconfig.dev.json
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\bin\Debug\netcoreapp2.1\Laborator 03.dll
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\bin\Debug\netcoreapp2.1\Laborator 03.pdb
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\obj\Debug\netcoreapp2.1\Laborator 03.csprojAssemblyReference.cache
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\obj\Debug\netcoreapp2.1\Laborator 03.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\obj\Debug\netcoreapp2.1\Laborator 03.AssemblyInfoInputs.cache
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\obj\Debug\netcoreapp2.1\Laborator 03.AssemblyInfo.cs
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\obj\Debug\netcoreapp2.1\Laborator 03.dll
+D:\Facultate\Anul 3\I.NET\Laborator 03\Laborator 03\obj\Debug\netcoreapp2.1\Laborator 03.pdb
