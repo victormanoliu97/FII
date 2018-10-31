@@ -1,0 +1,14 @@
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\obj\Debug\netcoreapp2.1\Laborator05Runnable.csprojAssemblyReference.cache
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\obj\Debug\netcoreapp2.1\Laborator05Runnable.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\obj\Debug\netcoreapp2.1\Laborator05Runnable.AssemblyInfoInputs.cache
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\obj\Debug\netcoreapp2.1\Laborator05Runnable.AssemblyInfo.cs
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\bin\Debug\netcoreapp2.1\Laborator05Runnable.deps.json
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\bin\Debug\netcoreapp2.1\Laborator05Runnable.runtimeconfig.json
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\bin\Debug\netcoreapp2.1\Laborator05Runnable.runtimeconfig.dev.json
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\bin\Debug\netcoreapp2.1\Laborator05Runnable.dll
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\bin\Debug\netcoreapp2.1\Laborator05Runnable.pdb
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\bin\Debug\netcoreapp2.1\Laborator 05.dll
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\bin\Debug\netcoreapp2.1\Laborator 05.pdb
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\obj\Debug\netcoreapp2.1\Laborator05Runnable.csproj.CopyComplete
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\obj\Debug\netcoreapp2.1\Laborator05Runnable.dll
+D:\Facultate\Anul 3\I.NET\Laborator 05\Laborator05Runnable\obj\Debug\netcoreapp2.1\Laborator05Runnable.pdb
