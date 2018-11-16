@@ -1,0 +1,12 @@
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.deps.json
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.dll
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.pdb
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\bin\Debug\netcoreapp2.1\DataLayer.dll
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\bin\Debug\netcoreapp2.1\DataLayer.pdb
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csprojAssemblyReference.cache
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfoInputs.cache
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfo.cs
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CopyComplete
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.dll
+D:\Facultate\Anul 3\I.NET\.NET-Laborator-7\Laborator 7\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.pdb
