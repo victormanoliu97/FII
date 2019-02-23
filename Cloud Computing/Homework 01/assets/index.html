@@ -1,0 +1,32 @@
+<script src="js-scripts/ajaxCalls.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <div id="ipStack">
+        <input type="text" value="http://api.ipstack.com/" disabled=true style="width: 20%">
+        <button id="ipStack-post" onclick="getIpStack()">Submit</button>
+    </div>
+
+    <br>
+
+    <div id="googleGeo">
+        <input type="text" value="https://maps.googleapis.com/maps/api/geocode/" disabled=true style="width: 20%">
+        <button id="googleGeo-post" onclick="getGoogleGeo()">Submit</button>
+    </div>
+
+    <br>
+
+    <div id="openWeather">
+        <input type="text" value="https://samples.openweathermap.org/" disabled=true style="width:20%">
+        <button id="weather-post" onclick="getWeather()">Submit</button>
+    </div>
+
+</head>
+<body>
+
+</body>
+</html>

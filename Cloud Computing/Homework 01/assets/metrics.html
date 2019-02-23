@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/metrics.css">
+    <script src="js-scripts/ajaxCalls.js"></script>
+    <meta charset="UTF-8">
+    <title>Metrics</title>
+</head>
+<body>
+<div id="ipStackMetric">
+    <button class="button" type="button" onclick="showIpStackMetrics()">Get</button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Link</th>
+            <th>Average Time</th>
+            <th>Succes Percent</th>
+            <th>Failed Percent</th>
+            <th>Encoding</th>
+        </tr>
+        <tr>
+            <td id="name"></td>
+            <td id="link"></td>
+            <td id="average_time"></td>
+            <td id="succes_percent"></td>
+            <td id="failed_percent"></td>
+            <td id="encoding"></td>
+        </tr>
+    </table>
+</div>
+
+<br>
+<br>
+
+
+<div id="GoogleMetric">
+    <button class="button" type="button" onclick="showGoogleMetrics()">Get</button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Link</th>
+            <th>Average Time</th>
+            <th>Succes Percent</th>
+            <th>Failed Percent</th>
+            <th>Encoding</th>
+        </tr>
+        <tr>
+            <td id="name_google"></td>
+            <td id="link_google"></td>
+            <td id="average_time_google"></td>
+            <td id="succes_percent_google"></td>
+            <td id="failed_percent_google"></td>
+            <td id="encoding_google"></td>
+        </tr>
+    </table>
+</div>
+
+<br>
+<br>
+
+<div id="OpenWeatherMetric">
+    <button class="button" type="button" onclick="showWeatherMetrics()">Get</button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Link</th>
+            <th>Average Time</th>
+            <th>Succes Percent</th>
+            <th>Failed Percent</th>
+            <th>Encoding</th>
+        </tr>
+        <tr>
+            <td id="name_weather"></td>
+            <td id="link_weather"></td>
+            <td id="average_time_weather"></td>
+            <td id="succes_percent_weather"></td>
+            <td id="failed_percent_weather"></td>
+            <td id="encoding_weather"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

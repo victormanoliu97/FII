@@ -1,0 +1,247 @@
+[{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.697272
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.439637
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.407517
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.434903
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.45284
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.447241
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.446551
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.422186
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.46835
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.455543
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.458481
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.285363
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.218283
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.226041
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.217249
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.226046
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.216502
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.234059
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.219792
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.213832
+},{
+      "name": "Google_GEO",
+      "url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=47.1667,27.6&key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.247316
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.206353
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.188414
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.214128
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.198422
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.248538
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.217308
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.264005
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.362787
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.201007
+},{
+      "name": "OpenWeather",
+      "url": "https://samples.openweathermap.org/data/2.5/weather?q=Ia\u0219i",
+      "encoding": "utf-8",
+      "response": 200,
+      "time": 0.254089
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.628959
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.434158
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.418139
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.421277
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.418504
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.467569
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.413886
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.397444
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.454909
+},{
+      "name": "IP_Stack",
+      "url": "http://api.ipstack.com/81.180.208.125?access_key=",
+      "encoding": "UTF-8",
+      "response": 200,
+      "time": 0.403202
+}]
