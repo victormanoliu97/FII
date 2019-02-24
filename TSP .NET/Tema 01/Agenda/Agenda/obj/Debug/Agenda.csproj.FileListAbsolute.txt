@@ -1,0 +1,30 @@
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Agenda.exe.config
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Agenda.exe
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Agenda.pdb
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csprojAssemblyReference.cache
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.Form1.resources
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.Properties.Resources.resources
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csproj.GenerateResource.cache
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csproj.CoreCompileInputs.cache
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.exe
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.pdb
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Newtonsoft.Json.dll
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Newtonsoft.Json.pdb
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Newtonsoft.Json.xml
+C:\Faculty\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csproj.CopyComplete
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Agenda.exe.config
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Agenda.exe
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Agenda.pdb
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Newtonsoft.Json.dll
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Newtonsoft.Json.pdb
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\bin\Debug\Newtonsoft.Json.xml
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csprojAssemblyReference.cache
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.Form1.resources
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.Properties.Resources.resources
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csproj.GenerateResource.cache
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csproj.CoreCompileInputs.cache
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.csproj.CopyComplete
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.exe
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.pdb
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.Form2.resources
+D:\Facultate\Anul 3\Semestrul 2\TSP.NET\Tema 01\Agenda\Agenda\obj\Debug\Agenda.Form3.resources
