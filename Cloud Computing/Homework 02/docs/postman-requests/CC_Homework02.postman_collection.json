@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "d349c0cc-384d-4cd9-afbc-2e2ec61f3262",
+		"name": "CC_Homework02",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Joke with Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/cgi-bin/getJoke.py?json={\"joke_id\" : \"3LmyXvsPfqc\"}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cgi-bin",
+						"getJoke.py"
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": "{\"joke_id\" : \"3LmyXvsPfqc\"}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Jokes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/cgi-bin/getAllJokes.py?json={}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cgi-bin",
+						"getAllJokes.py"
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": "{}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Joke",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/cgi-bin/submitJoke.py?json={\"joke_text\" : \"My Funny joke11\"}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cgi-bin",
+						"submitJoke.py"
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": "{\"joke_text\" : \"My Funny joke11\"}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Joke",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/cgi-bin/updateJoke.py?json={\"joke_id\" : \"SU2NMY9X1SO\" , \"joke_text\" : \"My Funny joke12\"}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cgi-bin",
+						"updateJoke.py"
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": "{\"joke_id\" : \"SU2NMY9X1SO\" , \"joke_text\" : \"My Funny joke12\"}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Joke",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/cgi-bin/deleteJoke.py?json={\"joke_id\" : \"OXI23ZHGS7A\"}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cgi-bin",
+						"deleteJoke.py"
+					],
+					"query": [
+						{
+							"key": "json",
+							"value": "{\"joke_id\" : \"OXI23ZHGS7A\"}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

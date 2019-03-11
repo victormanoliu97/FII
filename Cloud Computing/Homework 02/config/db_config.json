@@ -1,0 +1,7 @@
+{
+    "db_host" : "localhost",
+    "db_name" : "cc_homework02",
+    "db_username" : "root",
+    "db_password" : "victor",
+    "charset" : "utf8mb4"
+}
